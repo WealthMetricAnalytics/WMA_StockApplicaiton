@@ -13,7 +13,7 @@ end = '2023-7-30'
 
 
 st.title('WealthMetric Stock Predictor')
-use_input = st.text_input('Enter Stock Abbreviation', 'AMZN')##############
+use_input = st.text_input('Enter Stock Abbreviation', 'AAPL')##############
 
 if st.button('Calculate Analysis'):
     df = yf.download(use_input, start ,end )
